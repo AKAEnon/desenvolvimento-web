@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Crie sua conta</legend>
+            <label for="nome">Nome:</label>
+            <br><br>
+            <input type="text" maxlength="20" id="nome">
+            <br><br>
+            <label for="email">Email:</label>
+            <br><br>
+            <input type="email" maxlength="100" required id="email">
+            <br><br>
+            <label for="senha">Senha(mínimo 8 caracteres):</label>
+            <br><br>
+            <input type="password" minlength="8" maxlength="" required id="senha">
+            <br><br>
+            <b>Gênero:</b>
+            <input type="radio" id="fem" name="genero" value="F">
+            <label for="fem">Feminino</label>
+            <input type="radio" id="masc" name="genero" value="M">
+            <label for="masc">Masculino</label>
+            <input type="radio" id="masc" name="genero" value="O">
+            <label for="other">Outro</label>
+            <br><br>
+            <p>Biografia:</p>
+            <textarea placeholder="Fale um pouco sobre você..." rows="30" cols="30" name="biografia"
+                id="bio"></textarea>
+            <br><br>
+            <input type="checkbox" required id="check" name="nominho">
+            <label for="check">Eu li e aceito os termos de serviço.</label>
+            <br><br>
+        </fieldset>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+
+
+</html>
